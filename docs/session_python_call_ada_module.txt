@@ -1,0 +1,55 @@
+alimankalam@HPEliteBook8470p-Ub2004-rt38:~/Documents$ cd python-ada-template/
+alimankalam@HPEliteBook8470p-Ub2004-rt38:~/Documents/python-ada-template$ ls -al
+total 36
+drwxrwxr-x  4 alimankalam alimankalam 4096 Jul  9  2013 .
+drwxr-xr-x 19 alimankalam alimankalam 4096 Mar 15 08:48 ..
+-rw-rw-r--  1 alimankalam alimankalam  852 Jul  9  2013 ada_module.adb
+-rw-rw-r--  1 alimankalam alimankalam  630 Jul  9  2013 ada_module.ads
+-rw-rw-r--  1 alimankalam alimankalam  284 Jul  8  2013 ada_module.gpr
+drwxrwxr-x  2 alimankalam alimankalam 4096 Mar 15 08:50 lib
+drwxrwxr-x  2 alimankalam alimankalam 4096 Mar 15 08:50 obj
+-rw-rw-r--  1 alimankalam alimankalam  859 Jul  9  2013 python_main.py
+-rw-rw-r--  1 alimankalam alimankalam  920 Jul  9  2013 README
+alimankalam@HPEliteBook8470p-Ub2004-rt38:~/Documents/python-ada-template$ 
+
+alimankalam@HPEliteBook8470p-Ub2004-rt38:~/Documents/python-ada-template$ python python_main.py
+loading external Python module:
+calling functions from the Ada module:
+Hello from Ada module!
+
+asking Ada to add two integers:
+Ada adding: 10 + 2
+Python got result from Ada: 12
+
+we can try other operations, too:
+subtract: 8
+multiply: 20
+divide  : 5
+
+alimankalam@HPEliteBook8470p-Ub2004-rt38:~/Documents/python-ada-template$ tree ./
+./
+├── ada_module.adb
+├── ada_module.ads
+├── ada_module.gpr
+├── lib
+│   ├── ada_module.ali
+│   └── libada_module.so
+├── obj
+│   ├── ada_module.adb.stderr
+│   ├── ada_module.adb.stdout
+│   ├── ada_module.ali
+│   ├── ada_module.cswi
+│   ├── ada_module.lexch
+│   ├── ada_module.o
+│   ├── b__ada_module.adb
+│   ├── b__ada_module.ads
+│   ├── b__ada_module.ali
+│   ├── b__ada_module.o
+│   └── gpsauto.cgpr
+├── python_main.py
+└── README
+
+2 directories, 18 files
+alimankalam@HPEliteBook8470p-Ub2004-rt38:~/Documents/python-ada-template$ 
+
+

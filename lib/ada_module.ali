@@ -1,0 +1,82 @@
+V "GNAT Lib v9"
+A -gnatA
+A -fPIC
+A -mtune=generic
+A -march=x86-64
+P SL ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U ada_module%b		ada_module.adb		00e9c498 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U ada_module%s		ada_module.ads		445bbc00 EE NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D ada_module.ads	20130709130839 107aad9b ada_module%s
+D ada_module.adb	20130709130828 988eda59 ada_module%b
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-c.ads		20200312110721 5421119b interfaces.c%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D system.ads		20200312110721 4635ec04 system%s
+D s-conca4.ads		20200312110721 7e642b20 system.concat_4%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-imgint.ads		20200312110721 02dbe0c2 system.img_int%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 9|1r6 9r7 14r7
+X 6 a-textio.ads
+49K13*Text_IO 471e16 9|1w10 9r11 14r11
+263U14*Put_Line 9|9s19 14s19
+X 8 ada_module.ads
+3K9*Ada_Module 20l5 20e15 9|3b14 33l5 33t15
+5U14*Hello 6i<c,hello>22 9|7b14 10l8 10t13
+8V13*Add{11|35I9} 8>18 8>43 9i<c,add>22 9|12b13 16l8 16t11
+8i18 A{11|35I9} 9|12b18 14r69 15r14
+8i43 B{11|35I9} 9|12b43 14r105 15r18
+11V13*Sub{11|35I9} 11>18 11>43 12i<c,sub>22 9|18b13 21l8 21t11
+11i18 A{11|35I9} 9|18b18 20r14
+11i43 B{11|35I9} 9|18b43 20r18
+14V13*Mul{11|35I9} 14>18 14>43 15i<c,mul>22 9|23b13 26l8 26t11
+14i18 A{11|35I9} 9|23b18 25r14
+14i43 B{11|35I9} 9|23b43 25r18
+17V13*Div{11|35I9} 17>18 17>43 18i<c,div>22 9|28b13 31l8 31t11
+17i18 A{11|35I9} 9|28b18 30r14
+17i43 B{11|35I9} 9|28b43 30r18
+X 10 interfac.ads
+38K9*Interfaces 8|1r6 8r25 8r50 8r75 11r25 11r50 11r75 14r25 14r50 14r75
+. 17r25 17r50 17r75 9|5r13 12r25 12r50 12r75 14r45 14r81 18r25 18r50 18r75
+. 23r25 23r50 23r75 28r25 28r50 28r75 10|184e15
+X 11 i-c.ads
+18K20*C 8|1w17 8r36 8r61 8r86 11r36 11r61 11r86 14r36 14r61 14r86 17r36 17r61
+. 17r86 9|5r24 12r36 12r61 12r86 14r56 14r92 18r36 18r61 18r86 23r36 23r61
+. 23r86 28r36 28r61 28r86 11|230e17
+35I9*int<integer> 8|8r38 8r63 8r88 11r38 11r63 11r88 14r38 14r63 14r88 17r38
+. 17r63 17r88 9|5r26 12r38 12r63 12r88 14r58 14r94 18r38 18r63 18r88 23r38
+. 23r63 23r88 28r38 28r63 28r88
+

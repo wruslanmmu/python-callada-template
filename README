@@ -1,6 +1,3 @@
-# python-callada-template
-Python call Ada template
-
 This is a simple demo project that shows the principles of integration
 between Ada and Python (here: Python program calling Ada module).
 
@@ -23,5 +20,5 @@ This section will be naturally bigger with more complex modules and
 the recommended approach is to prepare a separate Python wrapper for that.
 This was not done in this demo for simplicity.
 
-REF: http://www.inspirel.com/
+Contact: http://www.inspirel.com/
 

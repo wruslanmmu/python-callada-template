@@ -1,0 +1,11 @@
+[LIBRARY PATH]
+/home/alimankalam/Documents/python-ada-template/lib/libada_module.so
+[OBJECT FILES]
+/home/alimankalam/Documents/python-ada-template/obj/ada_module.o
+20210315005013
+[GENERATED SOURCE FILES]
+b__ada_module.ads
+b__ada_module.adb
+b__ada_module.ali
+[GENERATED OBJECT FILES]
+b__ada_module.o
